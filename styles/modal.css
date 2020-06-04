@@ -76,7 +76,6 @@
     background-color: var(--primary-color);
     border: none;
     border-radius: 0px 8px 8px 0px;
-
 }
 #modal form button:hover {
     background-color: #2fb86e;

@@ -130,3 +130,11 @@ form button:hover {
 #items-grid li span {
     pointer-events: none;
 }
+fieldset legend#flex {
+    
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

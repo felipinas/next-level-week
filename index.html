@@ -9,37 +9,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
 
     
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/home.css">
-    <link rel="stylesheet" href="styles/modal.css">
-    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/main.css"> <!--atributos gerais-->
+    <link rel="stylesheet" href="styles/home.css"> <!--pagina home-->
+    <link rel="stylesheet" href="styles/modal.css"> <!--tela preta p pesquisar-->
+    <link rel="stylesheet" href="styles/responsive.css"> <!--responsivo-->
 
 </head>
 
 <body>
 
-    <div id="page-home"> <!--pagina inicial-->
+    <div id="page-home"> <!--PAGINA INICIAL-->
 
         <div class='content'>
 
-            <header>
+            <header><!--header-->
 
-                <img src="assets/logo.svg" alt="Logomarca da Ecoleta">
+                <img src="assets/logo.svg" alt="Logomarca da Ecoleta"> <!--logo da ecoleta-->
 
-                <a href="cadastro.html">
+                <a href="cadastro.html"> <!--para cadastrar um ponto-->
                     <span></span>
                     Cadastre um ponto de coleta
                 </a> 
 
             </header>
 
-            <main>
+            <main> <!--home-->
 
-                <h1>Seu marketplace de coleta de resíduos</h1> 
+                <h1>Seu marketplace de coleta de resíduos</h1> <!--titulo principal-->
 
-                <p>Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.</p>  
+                <p>Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.</p> <!--descrição do titulo-->
 
-                <a href="#"> <span></span> <strong>Pesquisar pontos de coleta</strong> </a>
+                <a href="#" onclick="openModal()"> <span></span> <strong>Pesquisar pontos de coleta</strong> </a> <!--botao para pesquisa-->
 
             </main>
 
@@ -47,29 +47,31 @@
 
     </div>
 
-    <div id="modal" class='hide'> <!--pagina da pesquisa-->
+    <div id="modal" class='hide'> <!--PAGINA DE PESQUISA FUNDO PRETO-->
 
-        <div class="content"> 
+        <div class="content" > 
 
-            <div class="header"> <!--header-->
+            <div class="header"> <!--header da pesquisa-->
 
-                <h1>Pontos de coleta</h1>
-                <a href="">Fechar</a>
+                <h1>Pontos de coleta</h1> <!--título-->
+                <a href="">Fechar</a> <!--botao p fechar-->
 
             </div>
 
-            <form action=""> <!--escrever a cidade-->
+            <form action="" id='form-pesquisa'> <!--escrever a cidade-->
 
-                <label for="search">Cidade</label>
+                <label for="search">Cidade</label> <!--titulozinho da pesquisa-->
 
                 <div class="search field">
-                    <input type="text" name="search" placeholder="Pesquisa por cidade">
-
-                    <button>
+                    <input type="text" name="search" placeholder="Pesquisa por cidade"> <!--campo de texto para escrever cidade-->
+               
+                    <button> <!--botao para pesquisa-->
                         <img src="assets/search.svg" alt="">
                     </button>
 
                 </div>
+
+                
 
             </form>
 

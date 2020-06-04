@@ -14,11 +14,11 @@ body {
     background: #f0f0f5; 
     -webkit-font-smoothing: antialiased; /*deixa as fontes mais bonitas*/
 }
-a {    
+a {   /*todo link*/  
     text-decoration: none;
 }
 
-h1,h2,h2,h4,h5,h6 {
+h1,h2,h2,h4,h5,h6 { /*todo titulo*/
     color: var(--title-color);
     font-family: Ubuntu, sans-serif;
 }

@@ -80,3 +80,9 @@ function handleSelectItem() {
 
     collectedItems.value = selectedItems
 }
+function cadastroConcluido() {
+
+    const modal = document.querySelector('#modal')
+    modal.classList.toggle('hide')
+}
+    

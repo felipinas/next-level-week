@@ -37,6 +37,7 @@ form h1 {
 form fieldset {
     margin-top: 64px;
     border: 0;
+    width: 100%;
 }
 form legend {
     margin-bottom: 40px;

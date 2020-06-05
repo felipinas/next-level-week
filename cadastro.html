@@ -9,7 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles/main.css"> <!--estilo geral-->
-    <link rel="stylesheet" href="styles/cadastro.css"> <!--estilo desta pagina - cadastro -->
+    <link rel="stylesheet" href="styles/cadastro.css">
+    <link rel="stylesheet" href="styles/modal-cadastro.css"> <!--estilo desta pagina - cadastro -->
     <link rel="stylesheet" href="styles/responsive.css">
 
 </head>
@@ -18,7 +19,7 @@
 
     <div id="page-cadastro">
 
-            <header> <!--cabeçalho padrão-->
+        <header> <!--cabeçalho padrão-->
 
                 <img src="assets/logo.svg" alt="Logomarca da Ecoleta">
 
@@ -27,9 +28,9 @@
                     Voltar para o home
                 </a> 
 
-            </header>
+        </header>
 
-            <form action="" id='form-cadastro'> <!--FORMULARIO CENTRAL-->
+        <form action="index.html" id='form-cadastro' onsubmit="cadastroConcluido()"> <!--FORMULARIO CENTRAL-->
 
                 <h1>Cadastro do ponto de coleta</h1>
 
@@ -48,7 +49,7 @@
 
                         <div class="field">
                             <label for="address">Imagem da entidade</label>
-                            <input type="url" name='address' required placeholder="http://">
+                            <input type="url" name='address' required placeholder="http://" >
                         </div>
 
                     </div>
@@ -139,7 +140,22 @@
 
                 <button type='submit'>Cadastrar ponto de coleta</button>
 
-            </form>
+        </form>
+
+        <div id="modal" class='hide'> <!--PAGINA DE CONCLUSAO FUNDO PRETO-->
+
+            <div class="content" > 
+    
+                <div class="header"> <!--header da pesquisa-->
+
+                    <img src="assets/check.svg" alt="">
+    
+                    <h1>Cadastro Concluído!</h1> <!--título-->
+    
+                </div>
+    
+            </div>
+        </div>
 
     </div>
         

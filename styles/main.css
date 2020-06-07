@@ -17,11 +17,11 @@ body {
 a {   /*todo link*/  
     text-decoration: none;
 }
-
 h1,h2,h2,h4,h5,h6 { /*todo titulo*/
     color: var(--title-color);
     font-family: Ubuntu, sans-serif;
 }
+
 
 
 

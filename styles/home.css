@@ -40,7 +40,6 @@
 }
 #page-home main h1 {
     font-size: 54px;
-    color: var(--title-color)
 }
 #page-home main p {
     margin-top: 24px; /*a distancia do h1*/

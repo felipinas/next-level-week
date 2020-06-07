@@ -38,8 +38,13 @@
     #form-cadastro .field-group .field + .field {
         margin-left: 0px;
     }
-    #modal .content {
+    .card {
         width: 80vw;
+        margin-bottom: 20px;
+    }
+    main .cards {
+        display: flex;
+        flex-direction: column;
     }
 }
 @media (min-width: 1700px) {
